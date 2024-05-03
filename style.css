@@ -1,6 +1,6 @@
 body {
-    background-color: #f8f9fa; /* Light gray background for a subtle look */
-    height: 100vh; /* Full viewport height */
+    background-color: #f8f9fa; 
+    height: 100vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,18 +8,18 @@ body {
 }
 #displayName {
     margin-top: 20px;
-    font-size: 20px; /* Larger text for visibility */
+    font-size: 20px; 
 }
 nav {
     position: fixed; /* Fix position to the top of the viewport */
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #115899; /* Bootstrap primary color */
+    background-color: #115899; /* Year up blue*/
     padding: 10px 0;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
-    z-index: 1000; /* High z-index to keep navbar above other content */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    z-index: 1000; 
 }
 nav a {
     color: white;
